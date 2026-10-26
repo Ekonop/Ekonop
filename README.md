@@ -79,7 +79,10 @@ Beyond what's public here, I've built internal tools and platforms in org contex
 
 <div align="center">
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ekonop&layout=compact&theme=github_dark&hide_border=true)](https://github.com/Ekonop)
+**Languages across all repos** (public + private, real source, forks & vendored build artifacts excluded):
+
+<img src="assets/languages-all-repos.svg" alt="Language breakdown across all repositories" width="880">
+
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ekonop&show_icons=true&theme=github_dark&hide_border=true)](https://github.com/Ekonop)
 
 </div>
