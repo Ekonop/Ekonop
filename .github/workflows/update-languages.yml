@@ -1,0 +1,35 @@
+name: Update language stats
+
+on:
+  schedule:
+    # 1st and 15th of every month (~every 2 weeks), 04:23 UTC
+    - cron: '23 4 1,15 * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Regenerate all-repo language SVG
+        env:
+          GH_TOKEN: ${{ secrets.EKONOP_GH_TOKEN }}
+        run: |
+          python3 .github/scripts/update-languages.py
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet assets/languages-all-repos.svg; then
+            echo "no change"
+            exit 0
+          fi
+          git config user.name "ekonop[bot]"
+          git config user.email "ekonop[bot]@users.noreply.github.com"
+          git add assets/languages-all-repos.svg
+          git commit -m "chore: refresh all-repo language stats [skip ci]"
+          git push
