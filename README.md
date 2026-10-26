@@ -7,7 +7,7 @@
 **B.Tech CSE (AI & ML), KIIT** · Bhubaneswar, India
 
 [![GitHub followers](https://img.shields.io/github/followers/Ekonop?label=Followers&style=for-the-badge&logo=github&logoColor=white&color=2ea44f)](https://github.com/Ekonop)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vansh-pratap-singh)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vansh-pratap-singh-853a17279/)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vanshpratapsingh09@gmail.com)
 
 </div>
@@ -16,7 +16,7 @@
 
 ## 👋 About
 
-Full-stack developer who ships production software end to end — Rust services, Flutter apps, real-time web platforms. VP & Application Development Lead at K-1000 Society. I build open source for fun: KDE Plasma tooling, iOS-on-Linux tooling, and more.
+Full-stack developer who ships production software end to end — Rust services, Flutter apps, real-time web platforms. **VP & Application Development Lead at K-1000 Society**, where I direct mobile development, review PRs, and mentor juniors. I also build open source for the Linux/KDE desktop.
 
 ---
 
@@ -53,21 +53,27 @@ Full-stack developer who ships production software end to end — Rust services,
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![systemd](https://img.shields.io/badge/systemd-000000?style=flat-square&logo=systemd&logoColor=white)
-![Google Maps](https://img.shields.io/badge/Google%20Maps-4285F4?style=flat-square&logo=googlemaps&logoColor=white)
 ![KDE Plasma](https://img.shields.io/badge/KDE%20Plasma-1D99F3?style=flat-square&logo=kde&logoColor=white)
+![Google Maps](https://img.shields.io/badge/Google%20Maps-4285F4?style=flat-square&logo=googlemaps&logoColor=white)
 
 ## 🚀 Featured Projects
 
 | Project | Stack | What it is |
 |---------|-------|------------|
-| **[Gajraj Connect](https://github.com/Ekonop/gajraj_connect)** | Flutter · Riverpod · Supabase · Hive · Maps | Offline-first logistics & trip-tracking platform |
-| **[KExplore Attendance](https://github.com/Ekonop/kexplore_attendance_platform)** | Next.js · TypeScript · Prisma · PostgreSQL | QR attendance for 21 university societies with rotating-token anti-cheat |
-| **[Hermes Connect](https://github.com/Ekonop/hermes-connect)** | Flutter · Go · Gin · Supabase | Campus companion + Go API gateway, real-time chat |
 | **[keep-awake-mode](https://github.com/Ekonop/keep-awake-mode)** | Bash · systemd · QML · KDE Plasma | Keep-Awake power mode + battery applet fork, AUR-ready |
 | **[hotspot-hub](https://github.com/Ekonop/hotspot-hub)** | Python · KDE Plasma | One-click WiFi hotspot tray app with QR guest access |
-| **[xcross](https://github.com/Ekonop/xcross)** | Dart · C++ | Run & debug iOS apps from Linux — no Mac needed |
-| **[fframes](https://github.com/Ekonop/fframes)** | Rust | Fast programmatic video rendering framework |
-| **[chorus](https://github.com/Ekonop/chorus)** | JavaScript · TypeScript | Delegate tasks across AI coding CLIs |
+| **[texting_app](https://github.com/Ekonop/texting_app)** | Flutter · Rust | Real-time texting app — Flutter frontend, Rust backend |
+
+## 🤝 Contributions
+
+Beyond what's public here, I've built internal tools and platforms in org contexts — many private, but worth noting:
+
+- **Gajraj Connect** — offline-first logistics & trip-tracking platform (Flutter · Riverpod · Supabase · Hive)
+- **KExplore Attendance** — QR attendance platform for 21 university societies, rotating-token anti-cheat (Next.js · PostgreSQL)
+- **Hermes Connect** — campus companion + Go API gateway (Flutter · Go · Gin · Supabase)
+- **Exam Evaluation Engine** — automated handwritten answer-sheet grading (Go · Python · OpenCV)
+- Currently shipping society apps at **K-1000 Society** (Go backends, Flutter apps) as VP.
+- LeetCode / NeetCode practice: [neetcode-submissions](https://github.com/Ekonop/neetcode-submissions)
 
 ## 📊 GitHub Stats
 
